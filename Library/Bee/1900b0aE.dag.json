@@ -351,7 +351,15 @@
         343,
         344,
         345,
-        346
+        346,
+        347,
+        348,
+        349,
+        350,
+        351,
+        352,
+        353,
+        354
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -894,12 +902,6 @@
         284,
         285,
         286,
-        289,
-        290,
-        291,
-        292,
-        293,
-        294,
         295,
         296,
         297,
@@ -949,7 +951,15 @@
         341,
         342,
         343,
-        344
+        344,
+        345,
+        346,
+        347,
+        348,
+        349,
+        350,
+        351,
+        352
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 6
@@ -19364,7 +19374,7 @@
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
       "PayloadOffset": 1513312,
-      "PayloadLength": 34721,
+      "PayloadLength": 35244,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
@@ -19376,7 +19386,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1548120,
+      "PayloadOffset": 1548643,
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -19622,6 +19632,14 @@
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll",
         "Assets/Scripts/CameraController.cs",
         "Assets/Scripts/PlayerController.cs",
+        "Assets/StudioNewPunch/BusinessWoman/Scripts/BWomanCustomise.cs",
+        "Assets/StudioNewPunch/BusinessWoman/Scripts/BWomanInstantiate.cs",
+        "Assets/StudioNewPunch/BusinessWoman/Scripts/BWomanMaterialsList.cs",
+        "Assets/University Lecture Theatre/Bakery/BakeryProjectSettings.cs",
+        "Assets/University Lecture Theatre/Bakery/ftGlobalStorage.cs",
+        "Assets/University Lecture Theatre/Bakery/ftLightmaps.cs",
+        "Assets/University Lecture Theatre/Bakery/ftLightmapsStorage.cs",
+        "Assets/University Lecture Theatre/Bakery/ftLocalStorage.cs",
         "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
         "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll",
         "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp"
@@ -19860,7 +19878,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1548216,
+      "PayloadOffset": 1548739,
       "PayloadLength": 9366,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -20102,6 +20120,624 @@
       "DebugActionIndex": 288
     },
     {
+      "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.UnityAdditionalFile.txt",
+      "DisplayName": "Writing Assembly-CSharp-Editor.UnityAdditionalFile.txt",
+      "ActionType": "WriteFile",
+      "PayloadOffset": 1558218,
+      "PayloadLength": 63,
+      "PayloadDebugContentSnippet": "E:\\GameProgrammingWorkspace\\VR",
+      "Inputs": [],
+      "Outputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.UnityAdditionalFile.txt"
+      ],
+      "DebugActionIndex": 289
+    },
+    {
+      "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp",
+      "DisplayName": "Writing Assembly-CSharp-Editor.rsp",
+      "ActionType": "WriteFile",
+      "PayloadOffset": 1558374,
+      "PayloadLength": 37460,
+      "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
+      "Inputs": [],
+      "Outputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp"
+      ],
+      "DebugActionIndex": 290
+    },
+    {
+      "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp2",
+      "DisplayName": "Writing Assembly-CSharp-Editor.rsp2",
+      "ActionType": "WriteFile",
+      "PayloadOffset": 1595928,
+      "PayloadLength": 0,
+      "PayloadDebugContentSnippet": "",
+      "Inputs": [],
+      "Outputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp2"
+      ],
+      "DebugActionIndex": 291
+    },
+    {
+      "Annotation": "Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)",
+      "DisplayName": "Csc Assembly-CSharp-Editor",
+      "Action": "\"E:\\GameProgrammingWorkspace\\UnityHubEditor\\2022.3.10f1\\Editor\\Data\\NetCoreRuntime\\dotnet.exe\" exec \"E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp\" \"@Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp2\"",
+      "Inputs": [
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEditor.Graphs.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.EditorToolbarModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.PresetsUIModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneViewModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ContentLoadModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.NVIDIAModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.PropertiesModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/Microsoft.Win32.Primitives.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.AppContext.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Buffers.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.Concurrent.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.NonGeneric.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.Specialized.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.Annotations.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.EventBasedAsync.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.Primitives.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.TypeConverter.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Console.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Data.Common.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Contracts.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Debug.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.FileVersionInfo.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Process.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.StackTrace.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.TextWriterTraceListener.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Tools.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.TraceSource.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Drawing.Primitives.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Dynamic.Runtime.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.Calendars.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.Extensions.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.Compression.ZipFile.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.DriveInfo.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.Primitives.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.Watcher.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.IsolatedStorage.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.MemoryMappedFiles.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.Pipes.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.UnmanagedMemoryStream.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Expressions.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Parallel.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Queryable.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Memory.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Http.Rtc.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.NameResolution.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.NetworkInformation.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Ping.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Primitives.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Requests.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Security.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Sockets.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebHeaderCollection.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebSockets.Client.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebSockets.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ObjectModel.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.DispatchProxy.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.ILGeneration.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.Lightweight.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Extensions.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Primitives.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.Reader.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.ResourceManager.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.Writer.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.CompilerServices.VisualC.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Extensions.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Handles.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Numerics.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Formatters.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Json.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Primitives.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Xml.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Claims.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Algorithms.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Csp.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Encoding.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Primitives.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.X509Certificates.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Principal.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.SecureString.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Duplex.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Http.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.NetTcp.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Primitives.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Security.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.Encoding.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.Encoding.Extensions.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.RegularExpressions.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Overlapped.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.Extensions.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.Parallel.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Thread.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.ThreadPool.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Timer.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ValueTuple.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.ReaderWriter.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XDocument.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XmlDocument.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XmlSerializer.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XPath.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XPath.XDocument.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Microsoft.CSharp.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/mscorlib.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.ComponentModel.Composition.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Core.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Data.DataSetExtensions.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Data.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Drawing.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.FileSystem.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Net.Http.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Numerics.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Numerics.Vectors.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Runtime.Serialization.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Transactions.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll",
+        "Library/PackageCache/com.unity.collab-proxy@2.0.7/Lib/Editor/PlasticSCM/log4netPlastic.dll",
+        "Library/PackageCache/com.unity.collab-proxy@2.0.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll",
+        "Library/PackageCache/com.unity.collab-proxy@2.0.7/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll",
+        "Library/PackageCache/com.unity.collab-proxy@2.0.7/Lib/Editor/PlasticSCM/unityplastic.dll",
+        "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll",
+        "Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll",
+        "Library/PackageCache/com.unity.visualscripting@1.9.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll",
+        "Library/PackageCache/com.unity.visualscripting@1.9.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll",
+        "Library/PackageCache/com.unity.visualscripting@1.9.0/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll",
+        "Library/PackageCache/com.unity.visualscripting@1.9.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll",
+        "Assets/University Lecture Theatre/Editor/x64/Bakery/scripts/ftModelPostProcessor.cs",
+        "Assets/University Lecture Theatre/Editor/x64/Bakery/scripts/ftSavedPadding2.cs",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.pdb",
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.ref.dll"
+      ],
+      "ToBuildDependencies": [
+        4,
+        97,
+        109,
+        117,
+        125,
+        132,
+        138,
+        144,
+        156,
+        162,
+        168,
+        174,
+        180,
+        186,
+        192,
+        205,
+        214,
+        221,
+        228,
+        235,
+        241,
+        249,
+        255,
+        263,
+        269,
+        276,
+        289,
+        290,
+        291,
+        294
+      ],
+      "ToUseDependencies": [
+        289,
+        291
+      ],
+      "FrontendResponseFiles": [
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp"
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [
+        {
+          "Key": "DOTNET_MULTILEVEL_LOOKUP",
+          "Value": "0"
+        }
+      ],
+      "DebugActionIndex": 292
+    },
+    {
+      "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll.mvfrm.rsp",
+      "DisplayName": "Writing Assembly-CSharp-Editor.dll.mvfrm.rsp",
+      "ActionType": "WriteFile",
+      "PayloadOffset": 1596031,
+      "PayloadLength": 10320,
+      "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
+      "Inputs": [],
+      "Outputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll.mvfrm.rsp"
+      ],
+      "DebugActionIndex": 293
+    },
+    {
+      "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll.mvfrm",
+      "DisplayName": "MovedFromExtractorCombine Assembly-CSharp-Editor.dll",
+      "Action": "\"E:\\GameProgrammingWorkspace\\UnityHubEditor\\2022.3.10f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll.mvfrm\" \"@Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll.mvfrm.rsp\"",
+      "Inputs": [
+        "Library/Bee/artifacts/mvdfrm/Unity.EditorCoroutines.Editor.ref.dll_34ED10A34098B2DB.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Performance.Profile-Analyzer.Editor.ref.dll_65A192712782EB2B.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.PlasticSCM.Editor.ref.dll_257AEB342BE77856.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Rider.Editor.ref.dll_9B5591808ABA37AF.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.ref.dll_D3B9364D6FB03093.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.ref.dll_E668CD773429A040.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.TestTools.CodeCoverage.Editor.ref.dll_F09CF4826CE11CD9.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.TextMeshPro.Editor.ref.dll_159E061D77A10B86.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.TextMeshPro.ref.dll_84A4293DBDD182DB.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Timeline.Editor.ref.dll_0D3D3C0B73557612.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Timeline.ref.dll_621CDDF9C514DF8F.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.VSCode.Editor.ref.dll_3628369EB48E4C19.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Core.Editor.ref.dll_EDC8690F57C5BDFD.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Core.ref.dll_D75DF4EA1AFE54F4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Flow.Editor.ref.dll_6AF951BE66A4493E.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Flow.ref.dll_1E6ED5409D07C9A3.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.SettingsProvider.Editor.ref.dll_A1A44354E0B583A8.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Shared.Editor.ref.dll_9669F6EBFF6DFFB7.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.State.Editor.ref.dll_E03858E727F23F6F.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.State.ref.dll_D91762B7076BE462.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.VisualStudio.Editor.ref.dll_3A975DBA53ABA4AD.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.TestRunner.ref.dll_193EC4CE382CBFB3.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.UI.ref.dll_4C98D3F7040CD4F5.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.TestRunner.ref.dll_E55D0F7C63F01D9E.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_08FEAA520A2EFD60.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.Graphs.dll_B7281AFC214A4DAF.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.CoreModule.dll_0AC501D32D48807D.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.DeviceSimulatorModule.dll_7A0851B4A5C440D4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.DiagnosticsModule.dll_E932C14E2F4A1E22.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.dll_04A5238F92086088.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.EditorToolbarModule.dll_11DF08CC30CA9C24.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.GraphViewModule.dll_DB89ACEBB717D1B9.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.PresetsUIModule.dll_96EFE5CDB97029BE.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.QuickSearchModule.dll_7442425B88211A7B.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.SceneTemplateModule.dll_357E798A2FB7465C.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.SceneViewModule.dll_1A398FF3AC3A9EC7.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.TextCoreFontEngineModule.dll_4D035BD8964E415B.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.TextCoreTextEngineModule.dll_94EB924A25D1FA79.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.UIBuilderModule.dll_30125A0829D04AED.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.UIElementsModule.dll_E8AD320424B49099.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.UIElementsSamplesModule.dll_4C7A30A3DC917D64.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.UnityConnectModule.dll_1619A4D0EF986DB3.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.AccessibilityModule.dll_6823E521302D6DF9.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.AIModule.dll_792BF8E98AEDA131.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.AndroidJNIModule.dll_66F61AD76DD3FF6F.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.AnimationModule.dll_AA0F29149174A65F.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ARModule.dll_329EBDECE80AFFFA.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.AssetBundleModule.dll_B82B754CEA87CF6D.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.AudioModule.dll_7E269738A3CAD791.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ClothModule.dll_E50EF4337DE7B675.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterInputModule.dll_95B619E6A1204079.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterRendererModule.dll_7FB51426157F4E58.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ContentLoadModule.dll_5141CE8DB90A775A.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.CoreModule.dll_2DE5D525D54DEBA8.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.CrashReportingModule.dll_91FD6E93500C5840.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.DirectorModule.dll_0CFFEE652879E3C5.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.dll_37496A67F07BED6D.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.DSPGraphModule.dll_12514FCE9ADAB4E6.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.GameCenterModule.dll_914364F23414F060.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.GIModule.dll_116841F7269C894B.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.GridModule.dll_0B56F113EDA2819F.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.HotReloadModule.dll_2B57E71A6CA7C1E1.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ImageConversionModule.dll_EBA711D697A4064C.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.IMGUIModule.dll_B686369F69FC6B72.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.InputLegacyModule.dll_4970906B8279855E.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.InputModule.dll_E49C5EE91A02FC35.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.JSONSerializeModule.dll_C83B6E5D2F68CE83.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.LocalizationModule.dll_D402E439389C3372.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.NVIDIAModule.dll_BC97CE595AD0A514.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ParticleSystemModule.dll_E50FB7DFBE1DE3CE.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.PerformanceReportingModule.dll_AFE19533492B2867.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.Physics2DModule.dll_F6B5190532719DF4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.PhysicsModule.dll_6E1AB44100B18E82.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ProfilerModule.dll_3F46279BC1D36AD2.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.PropertiesModule.dll_BE7EA430A700549C.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll_3E30CCFD78A0F6BD.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ScreenCaptureModule.dll_E2231BE243D4FAE5.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.SharedInternalsModule.dll_6FB850AC0ED2019C.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.SpriteMaskModule.dll_7A6FD782558485DA.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.SpriteShapeModule.dll_D18CA2A7A02A0777.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.StreamingModule.dll_5EA41664E0FC5D9D.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.SubstanceModule.dll_3B4F2AAE2C4F5BAB.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.SubsystemsModule.dll_E51D3DE423CC6DED.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.TerrainModule.dll_88612FAFD66FD770.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.TerrainPhysicsModule.dll_E58A60B2D760DE5B.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.TextCoreFontEngineModule.dll_CB62D72BA94C0026.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.TextCoreTextEngineModule.dll_134B0D9D38CFB944.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.TextRenderingModule.dll_0B628DECFB0C7ADA.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.TilemapModule.dll_275D9730EE2CB879.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.TLSModule.dll_CFC443C553E96ED6.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UIElementsModule.dll_E95B9F4C26F8A9E4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UIModule.dll_749F9716E734A6DD.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UmbraModule.dll_F8FB435130F18304.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityAnalyticsCommonModule.dll_4B2052776313C6C5.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityAnalyticsModule.dll_04AF28A96A4535CA.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityConnectModule.dll_037928DFEA206E5E.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityCurlModule.dll_DD2BCA460188984C.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityTestProtocolModule.dll_083CE696368CD2BA.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestAssetBundleModule.dll_77BB35D8A1F7A01B.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestAudioModule.dll_27DDE911CF95F2FF.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestModule.dll_FD461980A298A0CB.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestTextureModule.dll_F6738F291E8B6EB4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestWWWModule.dll_DE0D52F9288F75B0.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.VehiclesModule.dll_84C2E7E4A2A3B360.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.VFXModule.dll_50A2DC342A56D843.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.VideoModule.dll_A3301BA3665CF336.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.VirtualTexturingModule.dll_0B3A20AF85773446.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.VRModule.dll_C771BD9C88EF2C55.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_A434B04E66846A11.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_FA3080A1122979B3.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.WebGL.Extensions.dll_F2408A207668DE83.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.WindowsStandalone.Extensions.dll_3078E5633C700DF3.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Plastic.Antlr3.Runtime.dll_DBC5D081C4D6AF26.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Plastic.Newtonsoft.Json.dll_B06B77423C8110AF.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.IonicZip.dll_BE5647D59BA90757.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.YamlDotNet.dll_73B4528AAC4BDD55.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.TextureAssets.dll_0AD27BDE6D193B4D.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Antlr3.Runtime.dll_2521796BDD14ED74.mvfrm",
+        "E:/GameProgrammingWorkspace/UnityHubEditor/2022.3.10f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe",
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll.mvfrm.rsp"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll.mvfrm"
+      ],
+      "ToBuildDependencies": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        110,
+        111,
+        118,
+        119,
+        126,
+        199,
+        207,
+        208,
+        215,
+        222,
+        229,
+        242,
+        243,
+        256,
+        257,
+        270,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        293
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 294
+    },
+    {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEngine.TestRunner.dll",
       "DisplayName": "Copying UnityEngine.TestRunner.dll",
       "ActionType": "CopyFiles",
@@ -20114,7 +20750,7 @@
       "ToBuildDependencies": [
         4
       ],
-      "DebugActionIndex": 289
+      "DebugActionIndex": 295
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEngine.TestRunner.pdb",
@@ -20129,7 +20765,7 @@
       "ToBuildDependencies": [
         4
       ],
-      "DebugActionIndex": 290
+      "DebugActionIndex": 296
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEditor.TestRunner.dll",
@@ -20144,7 +20780,7 @@
       "ToBuildDependencies": [
         109
       ],
-      "DebugActionIndex": 291
+      "DebugActionIndex": 297
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEditor.TestRunner.pdb",
@@ -20159,7 +20795,7 @@
       "ToBuildDependencies": [
         109
       ],
-      "DebugActionIndex": 292
+      "DebugActionIndex": 298
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Rider.Editor.dll",
@@ -20174,7 +20810,7 @@
       "ToBuildDependencies": [
         144
       ],
-      "DebugActionIndex": 293
+      "DebugActionIndex": 299
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Rider.Editor.pdb",
@@ -20189,7 +20825,7 @@
       "ToBuildDependencies": [
         144
       ],
-      "DebugActionIndex": 294
+      "DebugActionIndex": 300
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VSCode.Editor.dll",
@@ -20204,7 +20840,7 @@
       "ToBuildDependencies": [
         180
       ],
-      "DebugActionIndex": 295
+      "DebugActionIndex": 301
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VSCode.Editor.pdb",
@@ -20219,7 +20855,7 @@
       "ToBuildDependencies": [
         180
       ],
-      "DebugActionIndex": 296
+      "DebugActionIndex": 302
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll",
@@ -20234,7 +20870,7 @@
       "ToBuildDependencies": [
         192
       ],
-      "DebugActionIndex": 297
+      "DebugActionIndex": 303
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualStudio.Editor.pdb",
@@ -20249,7 +20885,7 @@
       "ToBuildDependencies": [
         192
       ],
-      "DebugActionIndex": 298
+      "DebugActionIndex": 304
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEngine.UI.dll",
@@ -20264,7 +20900,7 @@
       "ToBuildDependencies": [
         97
       ],
-      "DebugActionIndex": 299
+      "DebugActionIndex": 305
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEngine.UI.pdb",
@@ -20279,7 +20915,7 @@
       "ToBuildDependencies": [
         97
       ],
-      "DebugActionIndex": 300
+      "DebugActionIndex": 306
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEditor.UI.dll",
@@ -20294,7 +20930,7 @@
       "ToBuildDependencies": [
         117
       ],
-      "DebugActionIndex": 301
+      "DebugActionIndex": 307
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEditor.UI.pdb",
@@ -20309,7 +20945,7 @@
       "ToBuildDependencies": [
         117
       ],
-      "DebugActionIndex": 302
+      "DebugActionIndex": 308
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll",
@@ -20324,7 +20960,7 @@
       "ToBuildDependencies": [
         125
       ],
-      "DebugActionIndex": 303
+      "DebugActionIndex": 309
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.pdb",
@@ -20339,7 +20975,7 @@
       "ToBuildDependencies": [
         125
       ],
-      "DebugActionIndex": 304
+      "DebugActionIndex": 310
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll",
@@ -20354,7 +20990,7 @@
       "ToBuildDependencies": [
         132
       ],
-      "DebugActionIndex": 305
+      "DebugActionIndex": 311
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.pdb",
@@ -20369,7 +21005,7 @@
       "ToBuildDependencies": [
         132
       ],
-      "DebugActionIndex": 306
+      "DebugActionIndex": 312
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll",
@@ -20384,7 +21020,7 @@
       "ToBuildDependencies": [
         138
       ],
-      "DebugActionIndex": 307
+      "DebugActionIndex": 313
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.PlasticSCM.Editor.pdb",
@@ -20399,7 +21035,7 @@
       "ToBuildDependencies": [
         138
       ],
-      "DebugActionIndex": 308
+      "DebugActionIndex": 314
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Settings.Editor.dll",
@@ -20414,7 +21050,7 @@
       "ToBuildDependencies": [
         150
       ],
-      "DebugActionIndex": 309
+      "DebugActionIndex": 315
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Settings.Editor.pdb",
@@ -20429,7 +21065,7 @@
       "ToBuildDependencies": [
         150
       ],
-      "DebugActionIndex": 310
+      "DebugActionIndex": 316
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll",
@@ -20444,7 +21080,7 @@
       "ToBuildDependencies": [
         156
       ],
-      "DebugActionIndex": 311
+      "DebugActionIndex": 317
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.pdb",
@@ -20459,7 +21095,7 @@
       "ToBuildDependencies": [
         156
       ],
-      "DebugActionIndex": 312
+      "DebugActionIndex": 318
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll",
@@ -20474,7 +21110,7 @@
       "ToBuildDependencies": [
         162
       ],
-      "DebugActionIndex": 313
+      "DebugActionIndex": 319
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.pdb",
@@ -20489,7 +21125,7 @@
       "ToBuildDependencies": [
         162
       ],
-      "DebugActionIndex": 314
+      "DebugActionIndex": 320
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.dll",
@@ -20504,7 +21140,7 @@
       "ToBuildDependencies": [
         168
       ],
-      "DebugActionIndex": 315
+      "DebugActionIndex": 321
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.pdb",
@@ -20519,7 +21155,7 @@
       "ToBuildDependencies": [
         168
       ],
-      "DebugActionIndex": 316
+      "DebugActionIndex": 322
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Timeline.dll",
@@ -20534,7 +21170,7 @@
       "ToBuildDependencies": [
         174
       ],
-      "DebugActionIndex": 317
+      "DebugActionIndex": 323
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Timeline.pdb",
@@ -20549,7 +21185,7 @@
       "ToBuildDependencies": [
         174
       ],
-      "DebugActionIndex": 318
+      "DebugActionIndex": 324
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Core.dll",
@@ -20564,7 +21200,7 @@
       "ToBuildDependencies": [
         186
       ],
-      "DebugActionIndex": 319
+      "DebugActionIndex": 325
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Core.pdb",
@@ -20579,7 +21215,7 @@
       "ToBuildDependencies": [
         186
       ],
-      "DebugActionIndex": 320
+      "DebugActionIndex": 326
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll",
@@ -20594,7 +21230,7 @@
       "ToBuildDependencies": [
         198
       ],
-      "DebugActionIndex": 321
+      "DebugActionIndex": 327
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb",
@@ -20609,7 +21245,7 @@
       "ToBuildDependencies": [
         198
       ],
-      "DebugActionIndex": 322
+      "DebugActionIndex": 328
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll",
@@ -20624,7 +21260,7 @@
       "ToBuildDependencies": [
         205
       ],
-      "DebugActionIndex": 323
+      "DebugActionIndex": 329
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.pdb",
@@ -20639,7 +21275,7 @@
       "ToBuildDependencies": [
         205
       ],
-      "DebugActionIndex": 324
+      "DebugActionIndex": 330
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll",
@@ -20654,7 +21290,7 @@
       "ToBuildDependencies": [
         214
       ],
-      "DebugActionIndex": 325
+      "DebugActionIndex": 331
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb",
@@ -20669,7 +21305,7 @@
       "ToBuildDependencies": [
         214
       ],
-      "DebugActionIndex": 326
+      "DebugActionIndex": 332
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Timeline.Editor.dll",
@@ -20684,7 +21320,7 @@
       "ToBuildDependencies": [
         221
       ],
-      "DebugActionIndex": 327
+      "DebugActionIndex": 333
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Timeline.Editor.pdb",
@@ -20699,7 +21335,7 @@
       "ToBuildDependencies": [
         221
       ],
-      "DebugActionIndex": 328
+      "DebugActionIndex": 334
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll",
@@ -20714,7 +21350,7 @@
       "ToBuildDependencies": [
         228
       ],
-      "DebugActionIndex": 329
+      "DebugActionIndex": 335
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.pdb",
@@ -20729,7 +21365,7 @@
       "ToBuildDependencies": [
         228
       ],
-      "DebugActionIndex": 330
+      "DebugActionIndex": 336
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll",
@@ -20744,7 +21380,7 @@
       "ToBuildDependencies": [
         235
       ],
-      "DebugActionIndex": 331
+      "DebugActionIndex": 337
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Flow.pdb",
@@ -20759,7 +21395,7 @@
       "ToBuildDependencies": [
         235
       ],
-      "DebugActionIndex": 332
+      "DebugActionIndex": 338
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll",
@@ -20774,7 +21410,7 @@
       "ToBuildDependencies": [
         241
       ],
-      "DebugActionIndex": 333
+      "DebugActionIndex": 339
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.pdb",
@@ -20789,7 +21425,7 @@
       "ToBuildDependencies": [
         241
       ],
-      "DebugActionIndex": 334
+      "DebugActionIndex": 340
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.State.dll",
@@ -20804,7 +21440,7 @@
       "ToBuildDependencies": [
         249
       ],
-      "DebugActionIndex": 335
+      "DebugActionIndex": 341
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.State.pdb",
@@ -20819,7 +21455,7 @@
       "ToBuildDependencies": [
         249
       ],
-      "DebugActionIndex": 336
+      "DebugActionIndex": 342
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll",
@@ -20834,7 +21470,7 @@
       "ToBuildDependencies": [
         255
       ],
-      "DebugActionIndex": 337
+      "DebugActionIndex": 343
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.pdb",
@@ -20849,7 +21485,7 @@
       "ToBuildDependencies": [
         255
       ],
-      "DebugActionIndex": 338
+      "DebugActionIndex": 344
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll",
@@ -20864,7 +21500,7 @@
       "ToBuildDependencies": [
         263
       ],
-      "DebugActionIndex": 339
+      "DebugActionIndex": 345
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.pdb",
@@ -20879,7 +21515,7 @@
       "ToBuildDependencies": [
         263
       ],
-      "DebugActionIndex": 340
+      "DebugActionIndex": 346
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll",
@@ -20894,7 +21530,7 @@
       "ToBuildDependencies": [
         269
       ],
-      "DebugActionIndex": 341
+      "DebugActionIndex": 347
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.pdb",
@@ -20909,7 +21545,7 @@
       "ToBuildDependencies": [
         269
       ],
-      "DebugActionIndex": 342
+      "DebugActionIndex": 348
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll",
@@ -20924,7 +21560,7 @@
       "ToBuildDependencies": [
         276
       ],
-      "DebugActionIndex": 343
+      "DebugActionIndex": 349
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb",
@@ -20939,7 +21575,37 @@
       "ToBuildDependencies": [
         276
       ],
-      "DebugActionIndex": 344
+      "DebugActionIndex": 350
+    },
+    {
+      "Annotation": "CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll",
+      "DisplayName": "Copying Assembly-CSharp-Editor.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll"
+      ],
+      "Outputs": [
+        "Library/ScriptAssemblies/Assembly-CSharp-Editor.dll"
+      ],
+      "ToBuildDependencies": [
+        292
+      ],
+      "DebugActionIndex": 351
+    },
+    {
+      "Annotation": "CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb",
+      "DisplayName": "Copying Assembly-CSharp-Editor.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.pdb"
+      ],
+      "Outputs": [
+        "Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb"
+      ],
+      "ToBuildDependencies": [
+        292
+      ],
+      "DebugActionIndex": 352
     },
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
@@ -20964,18 +21630,18 @@
         "Library/BuildPlayerData/Editor/TypeDb-All.json"
       ],
       "ToBuildDependencies": [
-        289,
-        299,
-        315,
-        317,
-        319,
-        331,
-        335,
-        343
+        295,
+        305,
+        321,
+        323,
+        325,
+        337,
+        341,
+        349
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 345
+      "DebugActionIndex": 353
     },
     {
       "Annotation": "ScriptAssembliesAndTypeDB",
@@ -20984,10 +21650,10 @@
       "Outputs": [],
       "ToBuildDependencies": [
         6,
-        345
+        353
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 346
+      "DebugActionIndex": 354
     }
   ],
   "FileSignatures": [
@@ -21222,7 +21888,7 @@
         "NamedNodes": {
           "all_tundra_nodes": 0,
           "ScriptAssemblies": 6,
-          "ScriptAssembliesAndTypeDB": 346
+          "ScriptAssembliesAndTypeDB": 354
         }
 ,  "DefaultNodes": [
     0
