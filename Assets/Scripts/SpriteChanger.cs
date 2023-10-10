@@ -29,7 +29,6 @@ public class SpriteChanger : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-
             curSpriteIndex++;
             Debug.Log("New index after click: " + curSpriteIndex);
             // Allow for the sprite index to wrap around
