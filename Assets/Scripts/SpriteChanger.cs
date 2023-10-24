@@ -22,7 +22,6 @@ public class SpriteChanger : MonoBehaviour
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         //curSpriteIndex = System.Array.IndexOf(availableSprites, spriteRenderer.sprite);
         curSpriteIndex = GetIndex();
-        Debug.Log("First index: " + curSpriteIndex);
     }
 
     // Update is called once per frame
@@ -31,7 +30,6 @@ public class SpriteChanger : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             curSpriteIndex++;
-            Debug.Log("New index after click: " + curSpriteIndex);
             // Allow for the sprite index to wrap around
             if (curSpriteIndex >= availableSprites.Length)
             {
