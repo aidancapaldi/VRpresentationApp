@@ -4,5 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/University Lecture Theatre/VRAppMainScene.unity
+    guid: 6618e28acc256554fa6edf68df92301a
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 81c01e0eceaf97a42a74e36d3c0f88e0, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 42d55a28579d8394ea57ded3c61fd6bc, type: 2}
