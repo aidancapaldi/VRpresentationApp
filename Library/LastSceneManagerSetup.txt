@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/KatiePlayground.unity
+- path: Assets/University Lecture Theatre/VRAppMainScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
