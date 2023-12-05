@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.XR;
 // System.SceneManager
 
 // Script to change the sprite of its parent renderer when mouse button is clicked
@@ -14,6 +16,10 @@ public class SpriteChanger : MonoBehaviour
     // Index of the sprite on which the renderer started
     private int curSpriteIndex;
 
+    // private UnityEngine.XR.XRNode hand;
+
+    // private List<UnityEngine.XR.InputDevice> leftHandDevices = new List<UnityEngine.XR.InputDevice>();
+
 
     // Start is called before the first frame update
     void Start()
@@ -22,11 +28,26 @@ public class SpriteChanger : MonoBehaviour
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         //curSpriteIndex = System.Array.IndexOf(availableSprites, spriteRenderer.sprite);
         curSpriteIndex = GetIndex();
+        // hand = UnityEngine.XR.XRNode.RightHand;
+
+        // UnityEngine.XR.InputDevices.GetDevicesAtXRNode(UnityEngine.XR.XRNode.LeftHand, leftHandDevices);
     }
 
     // Update is called once per frame
     void Update()
     {
+
+        // bool triggerValue;
+        // if (leftHandDevices[0].TryGetFeatureValue(UnityEngine.XR.CommonUsages.triggerButton, out triggerValue) && triggerValue)
+        // {
+        //     curSpriteIndex++;
+        //     // Allow for the sprite index to wrap around
+        //     if (curSpriteIndex >= availableSprites.Length)
+        //     {
+        //         curSpriteIndex = 0;
+        //     }
+        //     ChangeSprite();
+        // }
         if (Input.GetMouseButtonDown(0))
         {
             curSpriteIndex++;
@@ -36,6 +57,11 @@ public class SpriteChanger : MonoBehaviour
                 curSpriteIndex = 0;
             }
             ChangeSprite();
+        }
+
+        if (OVRInput.Get(OVRInput.Button.One))
+        {
+            Debug.Log("press");
         }
     }
 
