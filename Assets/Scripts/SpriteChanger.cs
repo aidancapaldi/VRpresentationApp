@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.XR;
+using UnityEngine.XR.Interaction.Toolkit;
+
 // System.SceneManager
 
 // Script to change the sprite of its parent renderer when mouse button is clicked
@@ -19,6 +20,9 @@ public class SpriteChanger : MonoBehaviour
     // private UnityEngine.XR.XRNode hand;
 
     // private List<UnityEngine.XR.InputDevice> leftHandDevices = new List<UnityEngine.XR.InputDevice>();
+
+    // public XRController right;
+    // public InputHelpers.Button button;
 
 
     // Start is called before the first frame update
@@ -48,6 +52,14 @@ public class SpriteChanger : MonoBehaviour
         //     }
         //     ChangeSprite();
         // }
+
+        // bool pressed;
+        // right.inputDevice.IsPressed(button, out pressed);
+
+        // if (pressed)
+        // {
+        //     Debug.Log("Hello - " + button);
+        // }
         if (Input.GetMouseButtonDown(0))
         {
             curSpriteIndex++;
@@ -57,11 +69,6 @@ public class SpriteChanger : MonoBehaviour
                 curSpriteIndex = 0;
             }
             ChangeSprite();
-        }
-
-        if (OVRInput.Get(OVRInput.Button.One))
-        {
-            Debug.Log("press");
         }
     }
 
